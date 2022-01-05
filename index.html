@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice With Forms</title>
+</head>
+<body>
+    <div>
+        <p>TrueCoders Information Request:</p>
+        <form action=""></form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Your First Name" required><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Your Last Name" required><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required><br>
+           
+
+            <p>What is your programming experience?</p>
+            <label for="beginner">Beginner</label>
+            <input type="radio" id="beginner" name="programming experience" value="beginner"
+                checked>
+            <label for="intermediate">Intermediate</label>
+            <input type="radio" id="intermediate" name="programming experience" value="intermediate">
+            <label for="expert">Expert</label>
+            <input type="radio" id="expert" name="programming experience" value="expert">
+            <br>
+            <br>
+           
+            <label for="desired career">Desired Career</label>
+            <textarea name="desired career" id="desired career" cols="21" rows="2"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit"><br><br>
+        </form> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+      <table>
+          <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+          </tr>
+      </table>
+      <tr>
+          <td>Your First Name</td>
+          <td>Your Last Name</td>
+          <td>Your email address</td>
+      </tr>
+      <br>
+      <br>
+
+        <table>
+            <form action="/https://server.com/info">
+            <tr>
+            <td> 
+                <label for="name">Name:</label>
+            </td>
+            <td>
+                <input type="text" required placeholder="John Doe">
+            </td>
+        </tr>
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                   </td> 
+                   <td>
+                    <input type="email" required placeholder="youremail@email.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
